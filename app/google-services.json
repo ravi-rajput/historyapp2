@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "271309127610",
+    "firebase_url": "https://historyapp2.firebaseio.com",
+    "project_id": "historyapp2",
+    "storage_bucket": "historyapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271309127610:android:15f46b8fb82cee6d",
+        "android_client_info": {
+          "package_name": "com.example.ravi.historyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271309127610-v46qmt0a1q7snabcjnkotkvdv1pd19vg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ravi.historyapp",
+            "certificate_hash": "ec4b8be054bf2610cd49aa70633007c0e6dabe50"
+          }
+        },
+        {
+          "client_id": "271309127610-ah93r6vl9c7nmufm3ilbh7e6omf01anf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9oSw5839q51Cqh681966Z_MpS3EsMmsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271309127610-ah93r6vl9c7nmufm3ilbh7e6omf01anf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271309127610:android:e989623fe5e9e2c2",
+        "android_client_info": {
+          "package_name": "ravi.gkguruji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271309127610-ah93r6vl9c7nmufm3ilbh7e6omf01anf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9oSw5839q51Cqh681966Z_MpS3EsMmsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271309127610:android:4f71507707fa53c6",
+        "android_client_info": {
+          "package_name": "com.srreducation.ravi.historyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271309127610-ah93r6vl9c7nmufm3ilbh7e6omf01anf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9oSw5839q51Cqh681966Z_MpS3EsMmsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

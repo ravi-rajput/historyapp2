@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.srreducation.ravi.historyapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gk_guruji_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gk_guruji_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+     <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contact"/>
+
+        <activity
+            android:name=".Today_Question"/>
+        <activity
+            android:name=".Disclaimer"/>
+
+        <activity
+            android:name=".Current_Affaires"/>
+
+        <activity
+            android:name=".Question_Paper"/>
+
+        <activity
+            android:name=".Economy"/>
+        <activity
+            android:name=".Geography"/>
+        <activity
+            android:name=".History"/>
+
+        <activity
+            android:name=".Google_Search"/>
+        <activity
+            android:name=".Other_Data"/>
+
+        <activity
+            android:name=".Indian_Polity"/>
+        <activity
+            android:name=".Scince"/>
+
+        <activity
+            android:name=".Ecology"/>
+
+        <activity
+            android:name=".MainActivity"/>
+
+        <activity
+            android:name=".vividh"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_app_gallary"
+            android:icon="@drawable/gallery"
+            android:title="Our App Gallery" />
+
+              <item
+            android:id="@+id/nav_youtube"
+            android:icon="@drawable/youtube"
+            android:title="Youtube" />
+
+
+        <item
+            android:id="@+id/nav_google"
+            android:icon="@drawable/google"
+            android:title="Google Search" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/disc"
+            android:title="Disclaimer" />
+
+    </group>
+</menu>

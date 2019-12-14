@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="DISCLAIMER"
+        android:textColor="#ff0044"
+        android:textSize="15pt"/>
+
+
+    <TextView
+        android:id="@+id/dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="declaration( for pdf and links)-We neither make this document nor upload it to the end.This document is a part of the link available on the Internet. If someone has copyright for this(Rightful Person), they can send us a mail to remove this link. Our e-mail address is- "
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        android:text="srredutech@gmail.com"
+        android:layout_below="@+id/dis"
+        android:textColor="#ff0044"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner" />
+
+
+</RelativeLayout>

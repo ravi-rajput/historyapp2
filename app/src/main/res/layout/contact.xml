@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srreducation.ravi.historyapp.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/text_View">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/about_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Application"
+            android:textColor="#ff0044"
+android:textSize="15pt"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" प्रतियोगी मित्रों स्वागत है आपका GK GURUJI के एंड्राइड app में.इस app में लगभग 1 लाख gk  प्रश्नों को समाहित करने का प्रयत्न किया गया है..सबसे महत्वपूर्ण आधारभूत पुस्तकों से इन लाख प्रश्नों को ONE LINER फॉर्म में बनाया गया है.इसमें सभी विषयों का विषयवार और TOPICWISE वर्गीकरण किया गया है.हिंदी मीडियम के छात्रों के लिए यह अनमोल संग्रह चयनित सदस्यों(असिस्टेंट कमांडेंट और स्टेशन मास्टर) द्वारा किया गया है.इसके अलावा इस app में UPSC/PCS/SSC/BANKING/रेलवे के प्रश्नों का विशिष्ट पीडीऍफ़ संग्रह भी किया गया है.दिन प्रतिदिन के आधार पर घटित करंट अफेयर्स भी प्रैक्टिस के लिए शामिल है."
+        android:textSize="11pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="#ff0044"
+        android:textSize="15pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Mobile Number : "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="9pt"
+        android:text="               9193336125"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="E Mail : "/>
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:text="          srredutech@gmail.com"/>
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/fb"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/back"
+        android:layout_marginRight="16dp" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="#ffffff"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner" />
+
+</android.support.design.widget.CoordinatorLayout>
